@@ -126,7 +126,7 @@ RUN bazel build --color=yes --curses=yes \
     /tmp/pip/tensorflow_serving_api-*.whl && \
     rm -rf /tmp/pip
 
-FROM binary_build as clean_build
+#FROM binary_build as clean_build
 # Clean up Bazel cache when done.
 RUN bazel clean --expunge --color=yes && \
     rm -rf /root/.cache
