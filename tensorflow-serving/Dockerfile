@@ -1,5 +1,5 @@
 # This image is an Ubuntu base image for Source-to-Image builds
-FROM s2i-ubuntu-basictools:latest
+FROM ubuntu:19.10
 MAINTAINER antonhughes <anton.hughes@priceinsight.trade>
 
 LABEL \
